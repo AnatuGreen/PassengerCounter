@@ -1,0 +1,82 @@
+body{
+    background-color: red;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+
+.counter-box{
+
+    height: 400px;
+    width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h2{
+    position:relative;
+    text-align: center;
+    top: 10px;
+}
+
+#count-num{
+    text-align: center;
+    font-size: 5em;
+}
+
+button{
+    width:150px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-weight: 900; 
+    border-radius: 8px;  
+    border: none;
+    color: #ffff;
+}
+
+#increment-button{
+    background-color: green;
+   
+}
+
+#decrement-button {
+    background-color: red;
+    
+}
+
+#reset-button {
+    background-color: blue;
+    
+}
+
+#save-button {
+    background-color: blueviolet;
+
+}
+
+
+/* How to center a html element: set the height and width, set the margin as auto.*/
+.previous {
+color: white;
+font-size: 3em;
+height: 100px;
+width: 500px;
+margin: auto;
+text-align: center;
+
+}
+
+#welcome-el {
+    height: 100px;
+    width: 400px;
+    background-color: aliceblue;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passenger counter app by Anaturuchi</title>
+   <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<p id="welcome-el">hi</p>
+
+    <h1>Welcome To The Passenger Counter App </h1>
+
+    <div class="counter-box"> 
+
+        <h2>Passengers Entered</h2>
+        <p id="count-num">0</p>
+
+
+        <button id="decrement-button" onclick="decrement()">Decrease</button>
+        <button id="increment-button" onclick="increment()">Increase</button>
+        <button id="reset-button" onclick="reset()">Reset</button>
+        <button id="save-button" onclick="save()">Save</button>
+    </div>
+
+ <div class="previous"><span class="prev-saves">Previous Saves:</span> <span id="result">0</span>
+</div>
+
+<script src="index.js"></script>
+
+
+
+</body>
+</html>

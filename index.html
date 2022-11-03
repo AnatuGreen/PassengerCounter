@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Items counter app by AnatuGreen</title>
-   <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- <p id="welcome-el">hi</p> -->
 
-<p id="welcome-el">hi</p>
+    <h1>Happy Counting!</h1>
 
-    <h1>Happy Counting App </h1>
+    <div class="counter-box">
+      <h2>Counting</h2>
+      <p id="count-num">0</p>
 
-    <div class="counter-box"> 
-
-        <h2>Counting</h2>
-        <p id="count-num">0</p>
-
-
-        <button id="decrement-button" onclick="decrement()">Decrease</button>
-        <button id="increment-button" onclick="increment()">Increase</button>
-        <button id="reset-button" onclick="reset()">Reset</button>
-        <button id="save-button" onclick="save()">Save</button>
+      <button id="decrement-button" onclick="decrement()">Decrease</button>
+      <button id="increment-button" onclick="increment()">Increase</button>
+      <button id="reset-button" onclick="reset()">Reset</button>
+      <button id="save-button" onclick="save()">Save</button>
     </div>
 
- <div class="previous"><span class="prev-saves">Records: </span> <span id="result">0</span>
-</div>
+    <div class="previous">
+      <span class="prev-saves">Records: </span> <span id="result">0</span>
+    </div>
 
-<script src="index.js"></script>
-
-
-
-</body>
+    <script src="index.js"></script>
+  </body>
 </html>
